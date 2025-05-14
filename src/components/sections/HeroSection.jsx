@@ -5,7 +5,7 @@
     import { ArrowDown, Code, Brain, Zap } from 'lucide-react';
 
     const HeroSection = () => {
-      const title = "Hi, I’m Syed Mohammad Baqir Husain";
+      const title = "Hi, I’m Syed Mohammad ";
       const subtitle = "Full-Stack Developer & AI Engineer";
 
       const titleVariants = {

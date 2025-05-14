@@ -20,7 +20,7 @@
     description:
       'A real-time face recognition system built with OpenCV and NumPy, capable of detecting, identifying, and authenticating users with optimized frame processing.',
     tags: ['Python', 'OpenCV', 'NumPy'],
-    imageUrl: 'Face recognition interface with detection overlay',
+    imageUrl :'./image.png',
     githubUrl: 'https://github.com/msyed74/face-recognition',
     demoUrl: null,
   },

@@ -81,7 +81,7 @@
                 <Github className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
               </motion.a>
               <motion.a
-                href="https://linkedin.com/in/syed-mohammad-baqir-husain"
+                href="https://www.linkedin.com/in/syed-mohammad-baqir-husain-994444246/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}

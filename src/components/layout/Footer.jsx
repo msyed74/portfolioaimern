@@ -26,7 +26,7 @@
                 <span className="sr-only">GitHub</span>
               </motion.a>
               <motion.a
-                href="https://linkedin.com/in/syed-mohammad-baqir-husain"
+                href="https://www.linkedin.com/in/syed-mohammad-baqir-husain-994444246/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
