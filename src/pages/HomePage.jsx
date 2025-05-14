@@ -15,7 +15,7 @@
       };
 
       return (
-        <div className="space-y-24 md:space-y-32 overflow-x-hidden">
+        <div className="space-y-24 md:space-y-32 overflow-x-hidden scrollbar-hide">
           <motion.div variants={sectionVariants} initial="hidden" animate="visible" viewport={{ once: true, amount: 0.2 }}>
             <HeroSection />
           </motion.div>
