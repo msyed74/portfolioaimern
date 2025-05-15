@@ -11,21 +11,14 @@ import { Briefcase, GraduationCap, CalendarDays } from "lucide-react";
 
 const experienceData = [
   {
-    title: "Senior Full-Stack Developer",
-    company: "Tech Solutions Inc.",
-    period: "2021 - Present",
+    title: " Full-Stack Developer",
+    company: "CODTECH IT Solutions PVT. LTD.",
+    period: "2025 - Present",
     description:
-      "Led development of scalable web applications using MERN stack. Integrated AI models for enhanced user experience. Mentored junior developers and improved code quality by 20%.",
-    icon: Briefcase,
+      "Driving end-to-end development of scalable web platforms using the MERN stack (MongoDB, Express.js, React.js, Node.js). Spearheaded AI-powered feature integration to enhance personalization and performance. Led codebase optimization efforts, improving maintainability and reducing bugs by 20%. Mentored junior developers, conducted code reviews, and established best practices across the team.", 
+      icon: Briefcase,
   },
-  {
-    title: "AI Engineer (Intern)",
-    company: "Innovate AI Corp.",
-    period: "2020 - 2021",
-    description:
-      "Developed and deployed machine learning models for predictive analytics. Contributed to research on NLP techniques for sentiment analysis.",
-    icon: Briefcase,
-  },
+  
 ];
 
 const educationData = [
@@ -76,7 +69,7 @@ const TimelineItem = ({ item, index }) => {
       </div>
       <div
         className={`order-1 ${
-          isLeft ? "md:text-right" : "md:text-left"
+          isLeft ? "md:text-left" : "md:text-left"
         } md:w-5/12 px-6 py-4`}
       >
         <Card className="shadow-lg glassmorphism">
@@ -115,25 +108,23 @@ const SectionTitle = ({ children }) => (
 
 const ExperienceEducationSection = () => {
   return (
-    <section className="py-16 md:py-24">
+    <section className="py-16 md:py-1">
       <div className="container mx-auto px-4">
         <motion.h2
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 20 }} 
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-3xl md:text-4xl font-bold text-center mb-16"
+          className="text-3xl md:text-2xl font-bold text-center mb-1  "
         >
-          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Journey & Milestones
-          </span>
+            
         </motion.h2>
 
         <div>
           <SectionTitle>Professional Experience</SectionTitle>
-          <div className="relative wrap overflow-hidden p-2 md:p-10 h-full">
+          <div className="relative wrap overflow-hidden p-2 md:p-10 h-small">
             <div
-              className="border-2-2 absolute border-opacity-20 border-border h-full border"
+              className="border-2-2 absolute border-opacity-20 border-border   h-full border"
               style={{ left: "50%", transform: "translateX(-50%)" }}
             ></div>
             {experienceData.map((item, index) => (
@@ -148,7 +139,7 @@ const ExperienceEducationSection = () => {
             <div
               className="border-2-2 absolute border-opacity-20 border-border h-full border"
               style={{ left: "50%", transform: "translateX(-50%)" }}
-            ></div>
+            ></div> 
             {educationData.map((item, index) => (
               <TimelineItem key={index} item={item} index={index} />
             ))}

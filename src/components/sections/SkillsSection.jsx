@@ -28,9 +28,9 @@
   { name: 'AI-powered Chatbots (Botpress)', icon: Brain, category: 'AI', level: 85 },
 
   // --- DevOps / Tools ---
-  { name: 'Git, GitHub & CI/CD', icon: Settings, category: 'DevOps', level: 90 },
-  { name: 'Vercel & Netlify', icon: Cloud, category: 'DevOps', level: 85 },
-  { name: 'JWT & API Testing (Postman)', icon: Cloud, category: 'DevOps', level: 80 },
+  { name: 'Git, GitHub', icon: Settings, category: '', level: 90 },
+  { name: 'Vercel & Netlify', icon: Cloud, category: '', level: 85 },
+  { name: 'JWT & API Testing (Postman)', icon: Cloud, category: '', level: 80 },
 ];
 
 
